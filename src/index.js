@@ -1,8 +1,13 @@
 //ENTRY
 const express = require('express');
-const app = express();
+const path = require('path');
 const { PORT } = require('./constants')
 
+//Init
+const app = express();
+
+//Express configurations
+app.use(express.static(path.resolve(__dirname, './public')));
 app.use(express.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => {
