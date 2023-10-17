@@ -9,4 +9,6 @@
 6 Install express-handlebars
     6.1 Configure view engine
     6.2 Add main layout
-    6.3 fix hyperlink styles
+    6.3 Fix hyperlink styles
+    6.4 Fix home navigation
+    6.5 Render home page in hbs
