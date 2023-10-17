@@ -12,3 +12,4 @@
     6.3 Fix hyperlink styles
     6.4 Fix home navigation
     6.5 Render home page in hbs
+7. Convert all html files to handlebars views
