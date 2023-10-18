@@ -1,46 +1,47 @@
 1. Init project and structure
 2. Setup developer environment
 3. Install express and nodemon
-    3.1. Configure static middleware
-    3.2. Configure bodyparser
-    3.3. Configure routers
+    - Configure static middleware
+    - Configure bodyparser
+    - Configure routers
 4. Add images and css in public directory
 5. Add html files in view directory
 6. Install express-handlebars
-    6.1. Configure view engine
-    6.2. Add main layout
-    6.3. Fix hyperlink styles
-    6.4. Fix home navigation
-    6.5. Render home page in hbs
+    - Configure view engine
+    - Add main layout
+    - Fix hyperlink styles
+    - Fix home navigation
+    - Render home page in hbs
 7. Convert all html files to handlebars views
-    7.1. Group views
+    - Group views
 8. Add controller folder with home controller
 9. Add database
-    9.1. Install mongoose
-    9.2 Connect to DB
+    - Install mongoose
+    - Connect to DB
 10. Prepare user functionality
-    10.1 User controller
-    10.2 Add controller to routes
-    10.3. Fix navigatioons in nav bar ( login, register, logout)
-    10.4 Render register page
-    10.5 Render login page
+    - User controller
+    - Add controller to routes
+    - Fix navigatioons in nav bar ( login, register, logout)
+    - Render register page
+    - Render login page
 11. Add user model
-    11.1 Simple validation in Schema
-    11.2 Add method for register
-    11.3 Create first user record in db
-    11.4 Validate password missmatch
+    - Simple validation in Schema
+    - Add method for register
+    - Create first user record in db
+    - Validate password missmatch
 12. Hash password
-    12.1 Install bcrypt
-    12.2 Hash password
+    - Install bcrypt
+    - Hash password
 13. Login
-    13.1 Find user by email
-    13.2 Validate password with hash
+    - Find user by email
+    - Validate password with hash
 14. Generate jasonwebtoken
-    14.1 Install jwt
-    14.2 Promisify jwt
-    14.3 Generate secret
-    14.4. Generate token in service login
+    - Install jwt
+    - Promisify jwt
+    - Generate secret
+    - Generate token in service login
 15. Return token in cookie
-    15.1 Install cookie-parser
-    15.2 Configure cookie-parser
-    15.3 Set cookie with the token
+    - Install cookie-parser
+    - Configure cookie-parser
+    - Set cookie with the token
+16. Implement logout
