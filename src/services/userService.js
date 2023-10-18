@@ -1,5 +1,7 @@
 const User = require("../models/user");
 const bcrypt = require('bcrypt');
+const jwt = require('../lib/jwt');
+const { SECRET } = require('../constants');
 
 exports.register = (userData) => {
     return User.create(userData);
@@ -20,6 +22,8 @@ exports.login = async (email, password) => {
         throw new Error('Invalid email or password!');
     }
 
-    console.log(user)
-    return user
+    const payload = {_id:user._id, email: user.email}
+    const token = jwt.sign(payload, SECRET, { expiresIn: '3d' });
+
+    return token
 }

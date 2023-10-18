@@ -32,3 +32,11 @@
 12. Hash password
     12.1 Install bcrypt
     12.2 Hash password
+13. Login
+    13.1 Find user by email
+    13.2 Validate password with hash
+14. Generate jasonwebtoken
+    14.1 Install jwt
+    14.2 Promisify jwt
+    14.3 Generate secret
+    14.4. Generate token in service login
