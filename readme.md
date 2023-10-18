@@ -13,3 +13,5 @@
     6.4 Fix home navigation
     6.5 Render home page in hbs
 7. Convert all html files to handlebars views
+    7.1. Group views
+8. Add controler folder with home controller

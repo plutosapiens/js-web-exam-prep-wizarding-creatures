@@ -4,7 +4,7 @@ const handlebars = require('express-handlebars');
 const path = require('path');
 
 const { PORT } = require('./constants');
-//const routes = require('./router');
+const routes = require('./router');
 
 //Init
 const app = express();
@@ -19,10 +19,8 @@ app.set('view engine', 'hbs');
 app.set('views', 'src/views');
 
 //Routes
-app.get('/', (req, res) => {
-    res.render('home');
-});
 
-//app.use(routes);
+
+app.use(routes);
 
 app.listen(PORT, () => console.log(`Server is listening on port ${PORT}`));
