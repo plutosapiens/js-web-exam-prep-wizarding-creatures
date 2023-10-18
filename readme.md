@@ -54,3 +54,13 @@
 18. Dynamic navigation
     -confitional options in navingation
     -add data to res.locals for hbs templates
+19. Error handling
+    - Add 404 page
+    - Redirect missing route to 404
+    - Add global error handler (optional)
+    - Global error (optional)
+    - Add error message util
+20. Show error notification
+    - Show in the main layout
+    - Pass error to render in login and register pages
+    
