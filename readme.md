@@ -29,4 +29,6 @@
     11.2 Add method for register
     11.3 Create first user record in db
     11.4 Validate password missmatch
-12. 
+12. Hash password
+    12.1 Install bcrypt
+    12.2 Hash password
