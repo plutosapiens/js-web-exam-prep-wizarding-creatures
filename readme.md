@@ -40,3 +40,7 @@
     14.2 Promisify jwt
     14.3 Generate secret
     14.4. Generate token in service login
+15. Return token in cookie
+    15.1 Install cookie-parser
+    15.2 Configure cookie-parser
+    15.3 Set cookie with the token
