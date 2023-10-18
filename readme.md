@@ -18,9 +18,12 @@
 9. Add database
     9.1. Install mongoose
     9.2 Connect to DB
-10. Authencication
+10. Prepare user functionality
     10.1 User controller
     10.2 Add controller to routes
     10.3. Fix navigatioons in nav bar ( login, register, logout)
     10.4 Render register page
     10.5 Render login page
+11. Add user model
+    11.1 Simple validation in Schema
+    11.2 Add method for register
