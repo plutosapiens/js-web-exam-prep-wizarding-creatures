@@ -63,4 +63,4 @@
 20. Show error notification
     - Show in the main layout
     - Pass error to render in login and register pages
-    
+21. Automatically login after register (bonus)
