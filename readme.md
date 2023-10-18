@@ -49,4 +49,8 @@
     - Create middleware directory
     -Add auth middleware and import it in express config below cookie-parser
     -Decode token
-    handle invalid token
+    -Handle invalid token
+    -Provide authorization
+18. Dynamic navigation
+    -confitional options in navingation
+    -add data to res.locals for hbs templates
