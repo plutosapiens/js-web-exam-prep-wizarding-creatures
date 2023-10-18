@@ -27,3 +27,6 @@
 11. Add user model
     11.1 Simple validation in Schema
     11.2 Add method for register
+    11.3 Create first user record in db
+    11.4 Validate password missmatch
+12. 
